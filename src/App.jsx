@@ -1,8 +1,10 @@
-import React from 'react'
-
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <h1 className='text-3xl font-bold underline'>
+        Xora | SaaS Landing Page by Jonatandb!
+      </h1>
+    </div>
   )
 }
 
