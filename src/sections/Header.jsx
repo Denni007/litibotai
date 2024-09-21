@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 import { useState } from 'react'
 import { Link as LinkScroll } from 'react-scroll'
 import clsx from 'clsx'
