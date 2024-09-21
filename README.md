@@ -1,4 +1,4 @@
-# Xora - Saas Landing Page
+# Xora - SaaS Landing Page
 
 
 ```bash
