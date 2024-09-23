@@ -7,6 +7,7 @@
     "email": "jonatandb@gmail.com",
     "url": "https://github.com/Jonatandb"
   },
+  "homepage":"https://jonatandb.github.io/xora_saas_landing_page",
   "type": "module",
   "scripts": {
     "dev": "vite",
