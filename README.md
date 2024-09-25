@@ -1,6 +1,10 @@
 # Xora - SaaS Landing Page
 
 
+
+![alt text](Screenshot.jpg)
+
+
 ```bash
 pnpm install
 ```
