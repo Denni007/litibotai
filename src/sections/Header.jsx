@@ -40,17 +40,16 @@ const Header = () => {
       )}
     >
       <div className='container flex h-14 justify-between items-center max-lg:px-5'>
-        <a className='lg:hidden cursor-pointer z-2'>
-          <LinkScroll
-            to='hero'
-            offset={-250}
-            spy
-            smooth
-            onClick={() => setIsOpen(false)}
-          >
-            <img src='/images/xora.svg' width={115} height={55} alt='logo' />
-          </LinkScroll>
-        </a>
+        <LinkScroll
+          className='lg:hidden cursor-pointer z-2'
+          to='hero'
+          offset={-250}
+          spy
+          smooth
+          onClick={() => setIsOpen(false)}
+        >
+          <img src='/images/xora.svg' width={115} height={55} alt='logo' />
+        </LinkScroll>
 
         <div
           className={clsx(
