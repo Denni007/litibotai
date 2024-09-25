@@ -30,14 +30,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: 9
+          
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'pnpm'
           
-      - name: Forzar la instalación de pnpm
-        run: corepack enable && corepack prepare pnpm@latest --activate
+      #- name: Forzar la instalación de pnpm
+      #  run: corepack enable && corepack prepare pnpm@latest --activate
 
       - name: Verificar pnpm
         run: pnpm --version
@@ -47,13 +53,16 @@ jobs:
         
       - name: Build the project
         run: pnpm run build
+        
       - name: Setup Pages
         uses: actions/configure-pages@v4
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload dist folder
           path: './docs'
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
