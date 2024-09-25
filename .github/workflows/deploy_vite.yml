@@ -35,10 +35,16 @@ jobs:
         with:
           node-version: 20
           cache: 'pnpm'
-      - name: Install pnpm
-        run: npm install -g pnpm
+          
+      - name: Forzar la instalación de pnpm
+        run: corepack enable && corepack prepare pnpm@latest --activate
+
+      - name: Verificar pnpm
+        run: pnpm --version
+        
       - name: Install dependencies
         run: pnpm install
+        
       - name: Build the project
         run: pnpm run build
       - name: Setup Pages
