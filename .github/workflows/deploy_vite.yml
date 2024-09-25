@@ -54,9 +54,14 @@ jobs:
       - name: Build the project
         run: pnpm run build
 
-      - name: Replace image paths in JS files
+      - name: Verificar archivos JS con la ruta '/images/'
         run: |
-          find ./docs/assets -type f -name "*.js" -exec sed -i 's/\/images\//\/xora_saas_landing_page\/images\//g' {} +
+          grep -rn '/images/' ./docs/assets/*.js || echo "No se encontraron coincidencias"
+      
+      - name: Reemplazar rutas en archivos JS
+        run: |
+          find ./docs/assets -type f -name "*.js" -print0 | xargs -0 sed -i 's/\/images\//\/xora_saas_landing_page\/images\//g'
+          # find ./docs/assets -type f -name "*.js" -exec              sed -i 's/\/images\//\/xora_saas_landing_page\/images\//g' {} +
           
       - name: Setup Pages
         uses: actions/configure-pages@v4
