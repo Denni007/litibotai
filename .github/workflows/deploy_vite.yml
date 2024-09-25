@@ -56,7 +56,7 @@ jobs:
 
       - name: Replace image paths in JS files
         run: |
-          find ./docs -type f -name "*.js" -exec sed -i 's/\/images\//\/xora_saas_landing_page\/images\//g' {} +
+          find ./docs/assets -type f -name "*.js" -exec sed -i 's/\/images\//\/xora_saas_landing_page\/images\//g' {} +
           
       - name: Setup Pages
         uses: actions/configure-pages@v4
