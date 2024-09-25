@@ -39,9 +39,17 @@ const Header = () => {
         hasScrolled && 'py-2 bg-black-100 backdrop-blur-[8px]',
       )}
     >
-      <div className='container flex h-14 items-center max-lg:px-5'>
-        <a className='lg:hidden flex-1 cursor-pointer z-2'>
-          <img src='/images/xora.svg' width={115} height={55} alt='logo' />
+      <div className='container flex h-14 justify-between items-center max-lg:px-5'>
+        <a className='lg:hidden cursor-pointer z-2'>
+          <LinkScroll
+            to='hero'
+            offset={-250}
+            spy
+            smooth
+            onClick={() => setIsOpen(false)}
+          >
+            <img src='/images/xora.svg' width={115} height={55} alt='logo' />
+          </LinkScroll>
         </a>
 
         <div
