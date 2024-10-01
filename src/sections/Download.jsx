@@ -22,7 +22,7 @@ const Download = () => {
               </div>
 
               <p className='body-1 mb-10 max-w-md'>
-                Try now for free on iOS, Android, PC, Web - whatever your
+                Try it now for free on iOS, Android, PC, Web - whatever your
                 flavor, we&apos;ve got you covered.
               </p>
 
