@@ -77,7 +77,7 @@ const Header = () => {
                     )}
                   >
                     <img
-                      src='/images/xora.svg'
+                      src='https://framerusercontent.com/images/H6RRGr6UHvZqqmCJoDnHrRqi9g.png'
                       alt='logo'
                       width={160}
                       height={55}
@@ -123,6 +123,7 @@ const Header = () => {
           />
         </button>
       </div>
+
     </header>
   )
 }
