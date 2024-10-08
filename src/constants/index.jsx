@@ -49,63 +49,63 @@ export const details = [
 export const faq = [
   {
     id: '0',
-    question: 'What are the common problems Liti AI helps solve?',
+    question: 'What are the common problems LitiBot AI helps solve?',
     answer:
-      'Liti AI provides a unified dashboard for all PANs, resolves visibility issues on return status, and simplifies navigation on the Income Tax portal. It also automates notices sent to clients, so consultants stay informed in real-time.',
+      'LitiBot AI provides a unified dashboard for all PANs, resolves visibility issues on return status, and simplifies navigation on the Income Tax portal. It also automates notices sent to clients, so consultants stay informed in real-time.',
   },
   {
     id: '1',
-    question: 'How does Liti AI make income tax management easier?',
+    question: 'How does LitiBot AI make income tax management easier?',
     answer:
-      'Liti AI offers one-click data fetching from the Income Tax portal for all PANs, including PDFs of notices, challans, and attachments. It provides a simple interface to track demands, e-proceedings, return status, and notices.',
+      'LitiBot AI offers one-click data fetching from the Income Tax portal for all PANs, including PDFs of notices, challans, and attachments. It provides a simple interface to track demands, e-proceedings, return status, and notices.',
   },
   {
     id: '2',
-    question: 'Can Liti AI handle multiple PANs?',
+    question: 'Can LitiBot AI handle multiple PANs?',
     answer:
-      'Yes, Liti AI supports managing multiple PANs through a single dashboard, enabling quick and easy data access and monitoring for all associated accounts.',
+      'Yes, LitiBot AI supports managing multiple PANs through a single dashboard, enabling quick and easy data access and monitoring for all associated accounts.',
   },
   {
     id: '3',
-    question: 'What kind of reporting features does Liti AI offer?',
+    question: 'What kind of reporting features does LitiBot AI offer?',
     answer:
-      'Liti AI comes with fast, intuitive search options and comprehensive reporting to meet all your tax management needs. It provides detailed actions to take on tax notices and returns, ensuring you stay on top of your filings.',
+      'LitiBot AI comes with fast, intuitive search options and comprehensive reporting to meet all your tax management needs. It provides detailed actions to take on tax notices and returns, ensuring you stay on top of your filings.',
   },
   {
     id: '4',
-    question: 'Is Liti AI user-friendly for non-tax professionals?',
+    question: 'Is LitiBot AI user-friendly for non-tax professionals?',
     answer:
-      'Absolutely! Liti AI includes inbuilt help for tax-related jargon used on the Income Tax portal. Its super simple interface is designed to make tax management easier for both professionals and non-professionals alike.',
+      'Absolutely! LitiBot AI includes inbuilt help for tax-related jargon used on the Income Tax portal. Its super simple interface is designed to make tax management easier for both professionals and non-professionals alike.',
   },
   {
     id: '5',
-    question: 'How does Liti AI help with income tax notices?',
+    question: 'How does LitiBot AI help with income tax notices?',
     answer:
-      'Liti AI fetches all notices automatically from the Income Tax portal, saving you from manually checking for updates. It provides clear guidance on actions needed for each notice.',
+      'LitiBot AI fetches all notices automatically from the Income Tax portal, saving you from manually checking for updates. It provides clear guidance on actions needed for each notice.',
   },
   {
     id: '6',
-    question: 'Can Liti AI be used for GST and TDS as well?',
+    question: 'Can LitiBot AI be used for GST and TDS as well?',
     answer:
-      'Yes, Liti AI manages Income Tax, GST, and TDS notices, demands, proceedings, and returns, offering a single solution for all your tax-related needs.',
+      'Yes, LitiBot AI manages Income Tax, GST, and TDS notices, demands, proceedings, and returns, offering a single solution for all your tax-related needs.',
   },
   {
     id: '7',
-    question: 'What makes Liti AI fast and efficient?',
+    question: 'What makes LitiBot AI fast and efficient?',
     answer:
-      'Liti AI is designed with a super fast data-fetching engine that automates information retrieval from government tax portals, reducing the time spent navigating multiple pages and filtering data for specific years.',
+      'LitiBot AI is designed with a super fast data-fetching engine that automates information retrieval from government tax portals, reducing the time spent navigating multiple pages and filtering data for specific years.',
   },
   {
     id: '8',
-    question: 'Is there a limit to the number of PANs Liti AI can handle?',
+    question: 'Is there a limit to the number of PANs LitiBot AI can handle?',
     answer:
-      'No, Liti AI is scalable and can handle any number of PANs, making it ideal for individuals, consultants, and large tax teams managing multiple clients.',
+      'No, LitiBot AI is scalable and can handle any number of PANs, making it ideal for individuals, consultants, and large tax teams managing multiple clients.',
   },
   {
     id: '9',
-    question: 'How does Liti AI ensure the security of my data?',
+    question: 'How does LitiBot AI ensure the security of my data?',
     answer:
-      'Liti AI prioritizes data security with industry-leading encryption and privacy controls, ensuring that all sensitive tax information is securely protected.',
+      'LitiBot AI prioritizes data security with industry-leading encryption and privacy controls, ensuring that all sensitive tax information is securely protected.',
   },
 ];
 
