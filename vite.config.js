@@ -6,6 +6,6 @@ export default defineConfig(({ mode }) => ({
   plugins: [react()],
   base: mode === "development" ? "/" : "/xora_saas_landing_page/",
   build: {
-    outDir: "docs",
+    outDir: "dist",
   }
 }))
