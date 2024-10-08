@@ -48,112 +48,116 @@ export const details = [
 
 export const faq = [
   {
-    id: "0",
-    question: "How easy is it to setup Xora?",
+    id: '0',
+    question: 'What are the common problems Liti AI helps solve?',
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      'Liti AI provides a unified dashboard for all PANs, resolves visibility issues on return status, and simplifies navigation on the Income Tax portal. It also automates notices sent to clients, so consultants stay informed in real-time.',
   },
   {
-    id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    id: '1',
+    question: 'How does Liti AI make income tax management easier?',
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      'Liti AI offers one-click data fetching from the Income Tax portal for all PANs, including PDFs of notices, challans, and attachments. It provides a simple interface to track demands, e-proceedings, return status, and notices.',
   },
   {
-    id: "2",
-    question: "How often do you add new content?",
+    id: '2',
+    question: 'Can Liti AI handle multiple PANs?',
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      'Yes, Liti AI supports managing multiple PANs through a single dashboard, enabling quick and easy data access and monitoring for all associated accounts.',
   },
   {
-    id: "3",
-    question: "What your refund policy?",
+    id: '3',
+    question: 'What kind of reporting features does Liti AI offer?',
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      'Liti AI comes with fast, intuitive search options and comprehensive reporting to meet all your tax management needs. It provides detailed actions to take on tax notices and returns, ensuring you stay on top of your filings.',
   },
   {
-    id: "4",
-    question: "Do you have corporate plans?",
+    id: '4',
+    question: 'Is Liti AI user-friendly for non-tax professionals?',
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      'Absolutely! Liti AI includes inbuilt help for tax-related jargon used on the Income Tax portal. Its super simple interface is designed to make tax management easier for both professionals and non-professionals alike.',
   },
   {
-    id: "5",
-    question: "What happens when I’m out of storage?",
+    id: '5',
+    question: 'How does Liti AI help with income tax notices?',
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      'Liti AI fetches all notices automatically from the Income Tax portal, saving you from manually checking for updates. It provides clear guidance on actions needed for each notice.',
   },
   {
-    id: "6",
-    question: "Can I upgrade my plan?",
+    id: '6',
+    question: 'Can Liti AI be used for GST and TDS as well?',
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      'Yes, Liti AI manages Income Tax, GST, and TDS notices, demands, proceedings, and returns, offering a single solution for all your tax-related needs.',
   },
   {
-    id: "7",
-    question: "How do I invite my team?",
+    id: '7',
+    question: 'What makes Liti AI fast and efficient?',
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      'Liti AI is designed with a super fast data-fetching engine that automates information retrieval from government tax portals, reducing the time spent navigating multiple pages and filtering data for specific years.',
   },
   {
-    id: "8",
-    question: "Do you offer training for individuals and teams?",
+    id: '8',
+    question: 'Is there a limit to the number of PANs Liti AI can handle?',
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      'No, Liti AI is scalable and can handle any number of PANs, making it ideal for individuals, consultants, and large tax teams managing multiple clients.',
   },
   {
-    id: "9",
-    question: "I’m locked out of my account what do I do?",
+    id: '9',
+    question: 'How does Liti AI ensure the security of my data?',
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      'Liti AI prioritizes data security with industry-leading encryption and privacy controls, ensuring that all sensitive tax information is securely protected.',
   },
 ];
 
 export const plans = [
   {
-    id: "0",
-    title: "Core",
-    priceMonthly: 19,
-    priceYearly: 12,
-    caption: "Best for solo creators",
+    id: '0',
+    title: 'CA',
+    priceMonthly: (7000 / 11).toFixed(2), // Monthly price from yearly
+    priceYearly: 7000,
+    caption: 'Ideal for Chartered Accountants',
     features: [
-      "100MB Cloud storage",
-      "100+ prompt templates",
-      "5 projects",
-      "24/7 support",
+      '50 TAN License',
+      '4000 Sync Credits',
+      '40₹/TAN/year for Additional TAN',
+      '0.30₹ for Additional Sync Credits',
+      'One User',
     ],
-    icon: "/images/circle.svg",
-    logo: "/images/plan-1.png",
+    icon: '/images/circle.svg',
+    logo: '/images/plan-1.png',
   },
   {
-    id: "1",
-    title: "Overdrive",
-    priceMonthly: 79,
-    priceYearly: 59,
-    caption: "Most popular plan",
+    id: '1',
+    title: 'Enterprise',
+    priceMonthly: (20000 / 11).toFixed(2), // Monthly price from yearly
+
+    priceYearly: 20000,
+    caption: 'Best for large organizations',
     features: [
-      "All Starter features",
-      "1TB additional storage",
-      "Unlimited projects",
-      "Analytics",
+      '10 TAN License',
+      '4000 Sync Credits',
+      '500₹/TAN/year for Additional TAN',
+      '0.30₹ for Additional Sync Credits',
+      'Five Users',
     ],
-    icon: "/images/triangle.svg",
-    logo: "/images/plan-2.png",
+    icon: '/images/triangle.svg',
+    logo: '/images/plan-2.png',
   },
   {
-    id: "2",
-    title: "Team",
-    priceMonthly: 39,
-    priceYearly: 29,
-    caption: "Exclusively for teams",
+    id: '2',
+    title: 'Consulting',
+    priceMonthly: (10000 / 11).toFixed(2), // Monthly price from yearly
+    priceYearly: 10000,
+    caption: 'Perfect for tax consultants',
     features: [
-      "All Overdrive features",
-      "10TB additional storage",
-      "50% off per member",
-      "Real-time collaboration",
+      '30 TAN License',
+      '4000 Sync Credits',
+      '150₹/GSTIN/year for Additional TAN',
+      '0.30₹ for Additional Sync Credits',
+      'Five Users',
     ],
-    icon: "/images/hexagon.svg",
-    logo: "/images/plan-3.png",
+    icon: '/images/hexagon.svg',
+    logo: '/images/plan-3.png',
   },
 ];
 
